@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="app-container">
+    <header class="header">
+        <div class="logo"><img src="./img/pngwing.com-15.png" class="logo-img" alt=""></div>
+        <div class="burger" id="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+
+    <h1 class="txt">Check the weather in any city!</h1>
+    <div class="box">
+        <input type="text" class="input-search" placeholder="Write the city">
+        <button class="btn-search" type="button">Find</button>
+    </div>
+    <div class="weather-location"></div>
+
+    <div class="comment">
+        <h2 class="comment-title">Comment section</h2>
+        <p class="comment-txt">Both prompts are required to be full</p>
+        <div class="nickname">
+            <input type="text" class="nickname-input" placeholder="Your nickname" required>
+            <button class="nickname-btn">Send</button>
+        </div>
+        <div class="comment-section">
+            <textarea placeholder="Your comment" name="" id="" cols="30" rows="10" class="comment-area" required></textarea>
+        </div>
+        <div class="new-div"><button type="button" class="comment-send">Send</button></div>
+        <div class="message"></div>
+    </div>
+    <h2 class="info-title">Info</h2>
+    <p class="info-txt">This project was created as part of our course. We are learning Javascript.</p>
+    <div class="info">
+        <div class="info-card1">
+            <h2 class="card1-title">Country</h2>
+            <p class="card1-txt">Choose any country</p>
+            <img src="./img/pngwing.com-11.png" alt="" class="card1-img">
+        </div>
+        <div class="info-card2">
+            <h2 class="card2-title">City</h2>
+            <p class="card2-txt">Choose any city</p>
+            <img src="./img/pngwing.com-13.png" alt="" class="card2-img">
+        </div>
+        <div class="info-card3">
+            <h2 class="card3-title">Weather</h2>
+            <p class="card3-txt">Know weather anywhere</p>
+            <img src="./img/pngwing.com-12.png" alt="" class="card3-img">
+        </div>
+    </div>
+    <h3 class="end-txt">Hope you enjoy our service!</h3>
+    
+    <div class="advert-banner" id="advertBanner">
+        <p>Subscribe on us in the social media!</p>
+    </div>
+    <div class="footer">
+        <div class="footer-nav">
+            <ul class="footer-ul">
+                <li><a class="footer-li" href="#home">Home</a></li>
+                <li><a class="footer-li" href="#about">About</a></li>
+                <li><a class="footer-li" href="#services">Services</a></li>
+                <li><a class="footer-li" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <p class="footer-ad">This site is a privacy of Vladyslav Kolochavyn (C)</p>
+        <p class="footer-last">To cooperate please contact us</p>
+    </div>
+<script src="./weather.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
